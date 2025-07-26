@@ -1,0 +1,30 @@
+#node-modules klasörü zorunlu çünkü çok büyük 
+node_modules/
+
+#ortaya çıkan log dosyaları
+logs/
+*.log
+
+#ortaya çıkan build yada dist klasörleri
+dist/
+build/
+
+#.env dosyası
+.env
+
+#Redis veya monngo'nun local dump dosyaları
+dump.rdb
+*.pid
+
+#IDE'ye özel dosyalar
+.vscode/
+.idea/
+
+#OS sistemine özel dosyalar
+.DS_Store
+Thumbs.db
+
+#npm debug logları
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
